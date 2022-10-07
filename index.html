@@ -21,95 +21,111 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
-    <div style="overflow-x: hidden; width: 100%; position: fixed;">
-      <!-- Bootstrap Navbar: https://getbootstrap.com/docs/4.0/components/navbar/ -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="font-size: medium">
-            <div>
-              <img class="logo-img" src="img/rwd_identity.gif" alt="Yamaha Motor Revs Your Heart" />
-            </div>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#menu"
-            aria-controls="menu"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="menu">
-            <ul class="navbar-nav mb-4 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Top</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/"
-                  >Display Models</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/conference/"
-                  >Press Conference</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/open_road/"
-                  >Open Road</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/omotenashi/"
-                  >Omotenashi Guides</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/map/"
-                  >Access Map</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019/"
-                  >Special Site</a
-                >
-              </li>
-            </ul>
+    <!-- Bootstrap Navbar: https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar navbar-expand-xl navbar-light">
+      <div class="container-fluid bg-light navbar-container">
+        <a class="navbar-brand" href="#">
+          <div>
+            <img class="logo-img" src="img/rwd_identity.gif" alt="Yamaha Motor Revs Your Heart" />
           </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="navbar-nav mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/"
+                >Display Models</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/conference/"
+                >Press Conference</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/open_road/"
+                >Open Road</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/omotenashi/"
+                >Omotenashi Guides</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/map/"
+                >Access Map</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019/"
+                >Special Site</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="language-select"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Language
+              </a>
+              <ul class="dropdown-menu test" aria-labelledby="language-select">
+                <li><a class="dropdown-item disabled" href="#" style="font-size: medium">English</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://global.yamaha-motor.com/jp/showroom/event/tokyo-motorshow-2019-bs/"
+                    style="font-size: medium"
+                    >Japanese</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <!--/navi-->
 
     <!--main-->
-
-    <p class="tx_ce" style="margin-top: 0">
-      <a href="/"><img src="img/rwd_identity.gif" alt="Yamaha Motor Revs Your Heart" /></a><br />
-      <span class="f10"
-        ><a href="https://global.yamaha-motor.com/jp/showroom/event/tokyo-motorshow-2019-bs/">Japanese</a> |
-        English</span
-      >
-    </p>
-
-    <hr />
     <br />
-    <h1 class="tms_ttl">
-      <em>The 46th Tokyo Motor Show 2019 YAMAHA</em>
-    </h1>
+    <br />
+    <div class="container content-section">
+      <div id="persona-selector" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center fs-1 lh-lg fw-bold">The 46th Tokyo Motor Show 2019 YAMAHA</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <p class="tx_ce">
       <img src="img/top_img.jpg" width="640" height="427" alt="" class="w100" style="max-width: 640px" />
@@ -187,22 +203,41 @@
     <hr />
     <br />
 
-    <p class="m_txt tx_ce">
-      <a href="https://youtu.be/LVWCJGcJtvc?rel=0" target="_blank">
-        <img
-          src="img/movie.gif"
-          width="480"
-          height="360"
-          alt="The 46th TOKYO MOTOR SHOW 2019 YAMAHA OPENING MOVIE"
-          class="w100"
-          style="max-width: 480px"
-        /><br />
-        <strong class="f16"
-          >The 46th TOKYO MOTOR SHOW 2019 YAMAHA OPENING MOVIE<br />
-          (Japanese version only. YouTube)</strong
-        ></a
-      ><br />
-    </p>
+    <section id="video">
+      <div class="container content-section">
+        <div class="container">
+          <div class="mx-auto ratio ratio-16x9 w-75">
+            <!-- iframe code copied from "share" function within YouTube -->
+            <iframe
+              id="youtube-video"
+              src="https://www.youtube.com/embed/LVWCJGcJtvc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <a href="https://youtu.be/LVWCJGcJtvc?rel=0" target="_blank">
+              <img
+                id="youtube-video-thumbnail"
+                src="img/movie.gif"
+                alt="The 46th TOKYO MOTOR SHOW 2019 YAMAHA OPENING MOVIE"
+                class="w100"
+              /><br />
+            </a>
+          </div>
+          <div class="text-center">
+            <br />
+            <a href="https://youtu.be/LVWCJGcJtvc?rel=0" target="_blank">
+            <strong class="f16">
+              The 46th TOKYO MOTOR SHOW 2019 YAMAHA OPENING MOVIE<br />
+              (Japanese version only. YouTube)
+            </strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <br />
     <br />
 
@@ -213,41 +248,40 @@
     <h2 class="tx_ce f24">Display Models</h2>
 
     <p class="tx_ce model_list">
-      <a href="exhibitionmodels/mw-vision/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/mw-vision/"
         ><img src="img/thumb_mw-vision.jpg" width="240" height="143" alt="YAMAHA MW-VISION" /><br />
         YAMAHA MW-VISION</a
       >
-      <a href="exhibitionmodels/tricity300/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/tricity300/"
         ><img src="img/thumb_tricity300.jpg" width="240" height="143" alt="Tricity300" /><br />
         Tricity300</a
       >
-      <a href="exhibitionmodels/land_link_concept/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/land_link_concept/"
         ><img src="img/thumb_landlink.jpg" width="240" height="143" alt="Land Link Concept" /><br />
         Land Link Concept</a
       >
-      <a href="exhibitionmodels/e01/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/e01/"
         ><img src="img/thumb_e01.jpg" width="240" height="143" alt="E01" /><br />
         E01</a
       >
-      <a href="exhibitionmodels/e02/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/e02/"
         ><img src="img/thumb_e02.jpg" width="240" height="143" alt="E02" /><br />
         E02</a
       >
-      <a href="exhibitionmodels/ypj-yz/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/ypj-yz/"
         ><img src="img/thumb_ypj-yz.jpg" width="240" height="143" alt="YPJ-YZ" /><br />
         YPJ-YZ</a
       >
-      <a href="exhibitionmodels/yzf-r1/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/yzf-r1/"
         ><img src="img/thumb_yzf-r1.jpg" width="240" height="143" alt="YZF-R1" /><br />
         YZF-R1</a
       >
-      <a href="exhibitionmodels/tenere700/"
+      <a href="https://global.yamaha-motor.com/showroom/event/tokyo-motorshow-2019-bs/exhibitionmodels/tenere700/"
         ><img src="img/thumb_tenere700.jpg" width="240" height="143" alt="Ténéré700" /><br />
         Ténéré700</a
       >
       <br />
       <br />
-      <a href="exhibitionmodels/" class="f16">Display Models</a>
     </p>
 
     <br />
