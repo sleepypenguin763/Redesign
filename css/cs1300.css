@@ -76,9 +76,9 @@ p {
   font-size: 25px;
 }
 
-.ps4-img {
-  max-width: 60%;
-  max-height: 60%;
+.website-scrennshot {
+  max-width: 75%;
+  max-height: 80%;
 }
 
 .persona-img {
@@ -180,7 +180,7 @@ ul {
     font-size: 20px;
   }
   
-  .ps4-img, .persona-img {
+  .website-scrennshot, .persona-img {
     max-width: 80%;
     max-height: 80%;
   }
