@@ -3,6 +3,7 @@ html {
   width: 100%;
   height: 100%;
 }
+
 body {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/bg.gif");
   color: #000;
@@ -47,6 +48,21 @@ p {
   font-size: 15px;
 }
 
+.model_list > a {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  padding: 0 10px;
+}
+
+.top-img {
+  max-width: 95%;
+  height: auto;
+}
+
+.paragraph-text {
+  width: 50%;
+}
+
 /*
 a {
   color: #f00;
@@ -60,71 +76,22 @@ a:visited {
   color: #c00;
 }
 */
-.tx_ce {
-  text-align: center;
-}
-.f24 {
-  font-size: 2.4rem;
-}
-.f20 {
-  font-size: 2rem;
-}
-.f16 {
-  font-size: 1.6rem;
-}
-.f10 {
-  font-size: 1rem;
-}
-img.w100 {
-  width: 100%;
-  height: auto;
-}
-.navi_td {
-  width: 200px;
-  border-right: 3px solid #d0d0d0;
-  vertical-align: top;
-}
-.navi_ft > a {
-  padding: 0 15px;
-}
-.pc_none {
-  display: none;
-}
+
 .sp_none {
   display: block;
 }
 br.sp-none {
   display: inherit;
 }
-.model_list > a {
-  display: inline-block;
-  margin-bottom: 1.5em;
-  padding: 0 10px;
-}
 p.m_txt {
   width: 90%;
   margin: 0 auto;
   display: block;
 }
+
 @media (max-width: 767px) {
-  body {
-    font-size: 1.3rem;
-  }
   h1.tms_ttl {
     font-size: 2rem;
-  }
-  .navi_td {
-    font-size: 1.2rem;
-    width: 20%;
-  }
-  .navi_ft > a {
-    padding: 0;
-  }
-  .pc_none {
-    display: block;
-  }
-  br.pc_none {
-    display: inherit;
   }
   .sp_none {
     display: none;
@@ -137,25 +104,33 @@ p.m_txt {
   }
 }
 
-@media(max-width:767px) {
-  html, body {
+@media (max-width: 767px) {
+  html,
+  body {
     width: 100%;
   }
-  
+
   h1 {
     margin: 15px 0;
   }
+
+  #youtube-video-thumbnail {
+    max-width: 80%;
+    height: auto;
+  }
 }
 
-@media(min-width: 767px) {
+@media (min-width: 767px) {
   .content-section {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .content-section:before {
     margin-top: -60px;
     margin-bottom: 40px;
   }
+
   p {
     margin: 0 0 30px;
     font-size: 18px;
@@ -166,10 +141,16 @@ p.m_txt {
   #youtube-video {
     display: none;
   }
+  .larger-device-text {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 767px) {
   #youtube-video-thumbnail {
+    display: none;
+  }
+  .smaller-device-text {
     display: none;
   }
 }

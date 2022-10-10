@@ -81,9 +81,9 @@ p {
   max-height: 80%;
 }
 
-.persona-img {
-  max-width: 100%;
-  max-height: 100%;
+.prototype-img {
+  max-width: 80%;
+  height: auto;
 }
 
 .main-question-header{
@@ -180,8 +180,8 @@ ul {
     font-size: 20px;
   }
   
-  .website-scrennshot, .persona-img {
+  .website-scrennshot, .prototype-img {
     max-width: 80%;
-    max-height: 80%;
+    height: auto;
   }
 }
