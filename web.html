@@ -174,6 +174,15 @@
                   decreases the readability of the page if the screen size changes.
                 </p>
               </div>
+              <div class="text-center w-100">
+                <img
+                  class="website-scrennshot"
+                  src="img/webaim.png"
+                  alt="Screenshot of the WebAIM result"
+                  style="margin-bottom: 15px"
+                />
+                <figcaption>Screenshot of the WebAIM Result</figcaption>
+              </div>
             </div>
           </div>
         </div>
@@ -183,99 +192,32 @@
     <section id="prototype">
       <br />
       <div class="container content-section">
-        <div id="persona-selector" class="container">
+        <div id="prototype-selector" class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="assignment-section fw-bold">Persona</h2>
+              <h2 class="assignment-section fw-bold">Low-fidelity Wireframing</h2>
             </div>
           </div>
           <div class="container">
             <div class="row">
               <div class="col-sm-12 inline-link">
                 <p>
-                  Below are the two Persona I came up with according to the interview results from the previous section.
-                  The template for the below empathy map are taken from
-                  <a href="https://www.figma.com/community/file/1126846262476709690" target="_blank">Figma</a>.
+                  Below are the three low-fidelity wireframes I came up with according to the problems I mentioned in the previous section.
                 </p>
-                <div id="questions" class="row inset-box">
-                  <div class="question-box-opaque">
-                    <strong class="main-question-header" style="font-size: 20px">Interface Problems</strong>
-                    <ul class="col-md-12">
-                      <strong class="main-question-header">Persona 1</strong>
-                      <div class="container">
-                        <li>
-                          Using the UI keyboard with a controller is annoying and hard. It takes far more time to type
-                          things using the controller than when typing on a computer
-                        </li>
-                        <li>Sometimes, it takes some time for the key input to be reflected on the console side</li>
-                        <li>With wired controllers, the wire can get in the player's way</li>
-                      </div>
-                    </ul>
-                    <br />
-                    <ul class="col-md-12">
-                      <strong class="main-question-header">Perona 2</strong>
-                      <div class="container">
-                        <li>The user is having trouble figuring out the correct sensitivity of joysticks</li>
-                        <li>
-                          Certain buttons, especially the square button is hard to press while using other buttons
-                        </li>
-                        <li>
-                          Plugging in the wired headphone / mic on the controller causes the wire to interrupt key
-                          inputs. The mic plug in location should be improved
-                        </li>
-                        <li>Default key mapping differs between countries / continent</li>
-                        <li>Pressing down the joystick vertically is hard without tilting or moving it.</li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
-                <div id="questions" class="row inset-box">
-                  <div class="question-box-opaque">
-                    <strong class="main-question-header" style="font-size: 20px"
-                      >How and Why each Persona Represents the Users</strong
-                    >
-                    <ul class="col-md-12">
-                      <div class="container">
-                        <p>
-                          Both personas have some similarities with some differences. First, both personas represent the
-                          user who does not use PS4 from day-to-day basis, and also focuses on the fact that the user
-                          has some experiences using a computer and/or other consoles such as XBox. Now, the first thing
-                          that is most important to note is that the PS4 controller must be used with the PS4 in this
-                          case. It is true that there are softwares that allows PS4/XBox controllers to be used on
-                          computers, but in both personas, I assumed that PS4 controllers are only used when using PS4.
-                        </p>
-                        <p>
-                          In the case of persona 1, I focused on how the user would feel and experience when touching
-                          the PS4 / PS4 controller for the first time. Clearly, one has to set up their account,
-                          purchase a game, connect to the internet, etc. Most or all of these steps require a user to
-                          use the controller, and most importantly, it involves a lot of console side UI keyboard inputs
-                          (ex. typing keyword when searching for an app, entering wifi password). This can take a lot of
-                          time especially when compared to keyboard inputs on a standard PC, so that is what I focused
-                          on. In other words, this persona focuses on potential additional features that could be added
-                          to the controller to ease the keyboard inputs.
-                        </p>
-                        <p>
-                          In the case of persona 2, I focused on the strengths and weaknesses of the controller itself.
-                          Figuring out sensitivity of the keys and buttons, how to plug microphones into the controller,
-                          how it fits the user's hand is focused. This persona is made from the previous interview
-                          section where users mentioned how the controller can not fit well for people with smaller
-                          hands, or if one has a big hand, that it is hard to press a certain combination of buttons at
-                          the same time.
-                        </p>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </div>
+            <div class="col">
+              <button class="btn btn-primary m-2" onclick="showLowfiPrototype(1);">Show WireFrame for Phones</button>
+              <button class="btn btn-info m-2" onclick="showLowfiPrototype(2);">Show WireFrame for Tablets</button>
+              <button class="btn btn-success m-2" onclick="showLowfiPrototype(3);">Show WireFrame for Computers</button>
+            </div>
           </div>
-          <div class="button">
-            <button class="btn btn-warning" onclick="showPersona(1);">Show Persona 1</button>
-            <button class="btn btn-success" onclick="showPersona(2);">Show Persona 2</button>
-          </div>
-          <div id="persona-img" class="text-center" style="width: 100%">
+            
+
+          <div id="prototype-img" class="text-center" style="width: 100%">
             <br />
-            <img class="persona-img rounded" src="img/persona1.png" alt="Persona 1" />
+            <img class="prototype-img rounded mb-5" src="img/Phone.png" alt="Phone Wireframe" />
+            <br />
           </div>
         </div>
       </div>
