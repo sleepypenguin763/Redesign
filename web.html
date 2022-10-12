@@ -202,7 +202,8 @@
             <div class="row">
               <div class="col-sm-12 inline-link">
                 <p>
-                  Below are the three low-fidelity wireframes I came up with according to the problems I mentioned in the previous section.
+                  Below are the three low-fidelity wireframes I came up with according to the problems I mentioned in
+                  the previous section.
                 </p>
               </div>
             </div>
@@ -212,12 +213,107 @@
               <button class="btn btn-success m-2" onclick="showLowfiPrototype(3);">Show WireFrame for Computers</button>
             </div>
           </div>
-            
 
           <div id="prototype-img" class="text-center" style="width: 100%">
             <br />
             <img class="prototype-img rounded mb-5" src="img/Phone.png" alt="Phone Wireframe" />
             <br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hifi-prototype">
+      <br />
+      <div class="container content-section">
+        <div id="prototype-selector" class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="assignment-section fw-bold">Prototypes: High-fidelity Prototypes</h2>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 inline-link">
+                <p>
+                  Below are the three high-fidelity prototypes I came up with according to the problems I mentioned in
+                  the previous section.
+                </p>
+              </div>
+            </div>
+            <div class="mx-auto ratio ratio-16x9 w-75 mb-5">
+              <iframe
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FaY77N14KGpYlNR2h8FDULc%2Fhi-fi-prototypes%3Fnode-id%3D37%253A2"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col mb-5">
+              <!-- Bootstrap collapse: https://getbootstrap.com/docs/4.0/components/collapse/-->
+              <button
+                id="phone-prototype-button"
+                onclick="togglePhonePrototypeButton()"
+                class="btn btn-primary m-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#phone-prototype-collapse"
+                aria-expanded="false"
+                aria-controls="phone-prototype-collapse"
+              >
+                Hide Prototype for Phones
+              </button>
+              <button
+                id="tablet-prototype-button"
+                onclick="toggleTabletPrototypeButton()"
+                class="btn btn-info m-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#tablet-prototype-collapse"
+                aria-expanded="false"
+                aria-controls="tablet-prototype-collapse"
+              >
+                Hide Prototype for Tablets
+              </button>
+              <button
+                id="desktop-prototype-button"
+                onclick="togglePCPrototypeButton()"
+                class="btn btn-success m-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#desktop-prototype-collapse"
+                aria-expanded="false"
+                aria-controls="desktop-prototype-collapse"
+              >
+                Hide Prototype for Computers
+              </button>
+            </div>
+            <div class="collapse show multi-collapse" id="phone-prototype-collapse">
+              <div class="mx-auto ratio ratio-16x9 w-100 mb-5">
+                <iframe
+                  style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaY77N14KGpYlNR2h8FDULc%2Fhi-fi-prototypes%3Fnode-id%3D0%253A3%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D0%253A3"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="collapse show multi-collapse" id="tablet-prototype-collapse">
+              <div class="mx-auto ratio ratio-16x9 w-100 mb-5">
+                <iframe
+                  style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaY77N14KGpYlNR2h8FDULc%2Fhi-fi-prototypes%3Fnode-id%3D17%253A75%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26starting-point-node-id%3D0%253A3"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="collapse show multi-collapse" id="desktop-prototype-collapse">
+              <div class="mx-auto ratio ratio-16x9 w-100 mb-5">
+                <iframe
+                  style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaY77N14KGpYlNR2h8FDULc%2Fhi-fi-prototypes%3Fnode-id%3D17%253A117%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26starting-point-node-id%3D0%253A3"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>
