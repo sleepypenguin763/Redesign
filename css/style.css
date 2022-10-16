@@ -59,19 +59,14 @@ p {
   height: auto;
 }
 
-/*
-a {
-  color: #f00;
-  text-decoration: underline;
+a:not(.nav-item) {
+  text-decoration: none !important;
 }
-a:hover {
-  color: #f00;
-  text-decoration: none;
+
+a:not(.nav-item):hover {
+  color: #f00 !important;
+  text-decoration: underline !important;
 }
-a:visited {
-  color: #c00;
-}
-*/
 
 p.m_txt {
   width: 90%;
