@@ -79,21 +79,6 @@ p.m_txt {
 }
 
 @media (max-width: 767px) {
-  h1.tms_ttl {
-    font-size: 2rem;
-  }
-  .sp_none {
-    display: none;
-  }
-  .sp_tx_le {
-    text-align: left;
-  }
-  p.m_txt {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
   html,
   body {
     width: 100%;
@@ -110,6 +95,10 @@ p.m_txt {
 
   #youtube-video {
     display: none;
+  }
+
+  p.m_txt {
+    width: 100%;
   }
 }
 
